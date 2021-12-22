@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const AdminLogin = () => {
+    let navigate = useNavigate();
     return (
         <div>
             <div className="container">
@@ -29,7 +31,9 @@ const AdminLogin = () => {
                             {/* <!-- Error Message --> */}
                             </div>
                             <div className= "col-lg-6 login-btm login-button">
-                            <button type="submit" className="btn btn-outline-primary">
+                            <button type="submit" className="btn btn-outline-primary" onClick = {() => {
+                                navigate.push("./Menu");
+                            }}>
                                 LOGIN
                             </button>
                             </div>
