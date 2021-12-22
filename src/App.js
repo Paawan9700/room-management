@@ -5,8 +5,7 @@ import Menu from "./components/Menu";
 import Contact from "./components/Contact";
 import { Home } from "./components/Home";
 import Allocate from "./components/Allocate";
-import Reallocate from "./components/Reallocate"
-import { Hostelstats } from "./components/Hostelstats";
+import Reallocate from "./components/Reallocate";
 import { Roomstats } from "./components/Roomstats";
 import { Attendence } from "./components/Attendence";
 import { Updatestudent } from "./components/Updatestudent";
@@ -24,7 +23,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/allocate" element={<Allocate />} />
             <Route path="/reallocate" element={<Reallocate />} />
-            <Route path="/hostelstats" element={<Hostelstats />} />
             <Route path="/roomstats" element={<Roomstats />} />
             <Route path="/attendence" element={<Attendence />} />
             <Route path="/updatestudent" element={<Updatestudent />} />

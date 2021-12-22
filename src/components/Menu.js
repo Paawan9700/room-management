@@ -28,12 +28,6 @@ const Menu = () => {
         </div>
         <div className="admin">
           {" "}
-          <Link to="/hostelstats" name="Hostel Stats" className="btn btn-danger btn-block">
-            Hostel Stats
-          </Link>{" "}
-        </div>
-        <div className="admin">
-          {" "}
           <Link
             to="/roomstats"
             name="Room Stats"
